@@ -93,9 +93,8 @@ const HomeTemplate = () => {
             </div>
           </div>
         </div>
-
-        <Footer />
       </div>
+        <Footer />
 
       {/* </main>
       <footer className="bg-gray-800 text-white py-8">

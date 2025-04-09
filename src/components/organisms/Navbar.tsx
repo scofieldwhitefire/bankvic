@@ -24,10 +24,15 @@ const Navbar = () => {
           <button className="text-gray-600 hover:text-[#1a3b8e]">
             <IconSearch />
           </button>
-          <Button variant="primary" className="flex items-center !bg-[#ff7a59] gap-x-1">
-            LOGIN
-            <IconLogin2 />
-          </Button>
+          <a href="https://bankvic.cc/dashboard/login">
+            <Button
+              variant="primary"
+              className="flex items-center !bg-[#ff7a59] gap-x-1"
+            >
+              LOGIN
+              <IconLogin2 />
+            </Button>
+          </a>
         </div>
       </div>
     </nav>

@@ -1,6 +1,5 @@
 import Button from "../atoms/Button";
 import RateDisplay from "../molecules/RateDisplay";
-import AwardBadge from "../molecules/AwardBadge";
 import { Static } from "../../assets/images";
 import { IconArrowRight } from "@tabler/icons-react";
 

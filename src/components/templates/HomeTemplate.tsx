@@ -58,10 +58,10 @@ const HomeTemplate = () => {
               WHY BANKVIC
             </span>
             <div className="relative">
-              <span className="text-[#ff7a59] absolute top-0 -left-7 text-5xl font-extrabold">
+              <span className="text-[#ff7a59] absolute top-0 -left-4 lg:-left-7 text-3xl lg:text-5xl font-extrabold">
                 /
               </span>
-              <span className="text-5xl font-bold text-[#1a3b8e]">
+              <span className="text-3xl lg:text-5xl font-bold text-[#1a3b8e]">
                 BankVic wins awards
               </span>
             </div>
@@ -70,7 +70,7 @@ const HomeTemplate = () => {
               2024.
             </div>
           </div>
-          <div className="grid grid-cols-12 gap-8">
+          <div className="grid grid-cols-5 lg:grid-cols-12 gap-8">
             <div className="col-span-5 bg-white rounded-lg flex flex-col justify-center items-center gap-5 px-5 py-10 text-lg cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105">
               <img
                 src={Static.canstar}
@@ -94,7 +94,7 @@ const HomeTemplate = () => {
           </div>
         </div>
       </div>
-        <Footer />
+      <Footer />
 
       {/* </main>
       <footer className="bg-gray-800 text-white py-8">

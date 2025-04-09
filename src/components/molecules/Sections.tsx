@@ -21,23 +21,25 @@ export const Sections = ({
         <div className="container mx-auto px-5 lg:px-20">
           <div
             className={`flex ${
-              pattern === "reverse" ? "flex-row-reverse" : "flex-row"
+              pattern === "reverse"
+                ? "flex-col lg:flex-row-reverse"
+                : "flex-col lg:flex-row"
             } items-center justify-center gap-16`}
           >
             <img
               src={image}
               alt={title}
-              className="object-cover size-[400px]"
+              className="object-cover size-[300px]size-[400px]"
             />
             <div className="pl-5 flex flex-col gap-5 items-start">
               <span className="text-[#474747] text-base font-light">
                 {topText}
               </span>
               <div className="relative">
-                <span className="text-[#ff7a59] absolute top-0 -left-7 text-5xl font-extrabold">
+                <span className="text-[#ff7a59] absolute top-0 -left-4 lg:-left-7 text-3xl lg:text-5xl font-extrabold">
                   /
                 </span>
-                <span className="text-5xl font-bold text-[#1a3b8e]">
+                <span className="text-3xl lg:text-5xl font-bold text-[#1a3b8e]">
                   {title}
                 </span>
               </div>

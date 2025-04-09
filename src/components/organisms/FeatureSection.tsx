@@ -3,11 +3,11 @@ import { Static } from "../../assets/images";
 
 const FeatureSection = () => {
   return (
-    <section className="bg-[#f5f5f5] w-full">
-      <div className="container mx-auto w-full py-20 px-10">
+    <section className="bg-[#f5f5f5] w-full mt-[21rem] lg:mt-0">
+      <div className="container mx-auto w-full py-20 px-5 lg:px-10">
         <div className="bg-white rounded-lg">
-          <div className="grid grid-cols-12 gap-10 px-14 pb-14">
-            <div className="flex items-start gap-5 col-span-4 text-[#1a3b8e] pt-14">
+          <div className="grid grid-cols-3 lg:grid-cols-12 gap-5 lg:gap-10 px-5 lg:px-14 pb-14">
+            <div className="flex items-start gap-5 col-span-3 lg:col-span-4 text-[#1a3b8e] pt-14">
               <img src={Static.wallet} className="size-[45px] object-fit" />
               <div className="px-7">
                 <a href="#" className="flex items-center gap-0.5">

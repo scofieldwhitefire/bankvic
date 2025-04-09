@@ -10,7 +10,7 @@ const Button = ({
   className?: string;
 }) => {
   const baseClasses =
-    "px-6 py-3 rounded-full font-medium transition-all duration-200 cursor-pointer";
+    "px-3 lg:px-6 py-1.5 lg:py-3 rounded-full font-normal lg:font-medium transition-all duration-200 cursor-pointer";
 
   const variantClasses = {
     primary: "bg-[#ff7a59] text-white hover:bg-orange-500 hover:shadow-md",
